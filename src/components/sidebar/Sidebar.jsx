@@ -1,5 +1,5 @@
 import React,{ useState } from 'react';
-import Logo from '../img/logo-1.png';
+import Logo from '../img/DEYA.png';
 import './Sidebar.css';
 import { SideBarData } from '../../Data/Data';
 import {UilSignOutAlt} from '@iconscout/react-unicons'

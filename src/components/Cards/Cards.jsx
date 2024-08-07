@@ -1,6 +1,7 @@
 import React from 'react';
-import './Cards.css';
-import { CardsData } from '../../Data/Data';
+import { CardsData } from '../../Data/Data.js'
+import Card from '../Card/Card';
+import './Cards.css'
 
 const Cards = () => {
   return (
@@ -8,8 +9,8 @@ const Cards = () => {
     {CardsData.map((card, id)=>{
         return(
             <div className="parentContainer">
-                <Cards
-                title = {card.title}
+                <Card
+                title ={card.title}
                 color ={card.color}
                 barValue={card.barValue}
                 value={card.value}
